@@ -1,0 +1,24 @@
+TP APMA
+
+NGUY Thomas / HACKETT Damien
+
+Consignes:
+
+  Pour compiler lancer: "make"
+
+  La commande "make test" effectue la compilation puis lance
+la compression/decompression de tous les fichiers présents dans le dossier Test
+Elle indique si les fichiers sont identiques grâce à l'utilitaire "diff"
+
+  La commande "make cleanall" permet de supprimer tous les produits intermediaires
+de compilation, le programme compilé et les fichiers compréssé/decompressé génerés 
+par l'execution du programme (un beau nettoyage de printemps quoi!!)
+
+  On peut aussi choisir de ne supprimer que les intermediaires de compilation ( "make clean") ou 
+que les fichiers textes génerés ( "make cleantxt" ).
+
+Voilà, now enjoy it.
+
+" Compress or not compress...
+			      ... I think Huffman is the answer!"
+
